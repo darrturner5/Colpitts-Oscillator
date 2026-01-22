@@ -38,6 +38,11 @@ Nyquist frequency is 500MHz( Max frequency for accurate capturing) This means th
 *Colpitts Oscillator build on Breadboard*
   ![Resume explanation-4](https://github.com/user-attachments/assets/8e0b4dde-1992-41c6-80ff-901e64bffc1e)
 
+## What I'd Improve
+- Use new components
+- Design an RF amplifier that takes the oscillator as an input
+- Design Oscillator for a higher frequency
+
 
 
   
