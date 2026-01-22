@@ -1,0 +1,42 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+#Load CSV
+
+data = np.loadtxt("/Users/darrturner5/Documents/oscillator/NewFile17.csv",
+                  delimiter=",",
+                  skiprows=2,
+                  usecols=(0,1)
+                  )
+
+voltage = data[:,1]
+
+# sampling frequency
+fs = 1e9
+dt = 1 /fs
+
+print(f"Sampling frequency: {fs/1e6:.2f} GSa/s")
+
+# apply window
+
+window = np.hanning(len(voltage))
+voltage = voltage * window
+
+# FFT
+fft_vals = np.fft.fft(voltage)
+freqs = np.fft.fftfreq(len(fft_vals), d=dt)
+
+# Keep the positive Frequency
+mask = freqs > 0
+freqs = freqs[mask]
+magnitude = np.abs(fft_vals[mask])
+
+# plot
+
+plt.plot(freqs, 20*np.log10(magnitude))
+plt.xlabel("Frequency (Hz)")
+plt.ylabel("Magnitude (dB)")
+plt.title("FFT of Oscillator Output")
+plt.grid(True)
+#plt.xlim(0, 2e8)
+plt.show()
