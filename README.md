@@ -9,8 +9,9 @@ A Colpitts Oscillator is a circuit capable of producing its own signal with an a
 ![IMG_8077](https://github.com/user-attachments/assets/97146a0a-adcd-4190-857d-9e357d9db261)
 ![Resume explanation-3](https://github.com/user-attachments/assets/48581dd7-fa4f-4765-b07b-c5fcf06fa12d)
 
-*Yellow = Output of Tank
-*Blue = Output of Common Emitter Amplifier
+*Yellow = Output of Tank*
+
+*Blue = Output of Common Emitter Amplifier*
 
 
 
