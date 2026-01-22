@@ -35,11 +35,11 @@ Nyquist frequency is 500MHz( Max frequency for accurate capturing) This means th
 - Parasitics (stray capacitance, long wire leads) artificially raised the LC tank Amplitude on the breadboard. (Common Emitter has to work harder to sustain Oscillation
 - Loading effects minimized with common emitter buffer controlled loading through 1k Ohm resistor.
 
-
+*Colpitts Oscillator build on Breadboard*
   ![Resume explanation-4](https://github.com/user-attachments/assets/8e0b4dde-1992-41c6-80ff-901e64bffc1e)
 
 
-  *Colpitts Oscillator build on Breadboard
+
   
 
 
