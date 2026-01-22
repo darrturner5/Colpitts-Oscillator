@@ -1,1 +1,10 @@
+## Project Overview:
+
+A Colpitts Oscillator is a circuit capable of producing its own signal with an amplifier and LC Feedback Network. It uses 2 capacitors and an inductor for feedback. In order for the oscillation to sustain itself, the amplifier has to produce a high enough voltage gain to make up for losses in the LC Tank as well as inverting the phase of the signal 180 degrees(makes it able to be further amplified). This circuit is key to many devices such as transmitters and recievers. My Colpitts oscillator uses a Common Emitter Amplifier and 1nf,1nF, 47uH feedback loop which operates at 1MHz. I buffed the output and performed a FFT (Fast Fourier Transform) to analyze the 1MHz signal and made a comparison between the breadboarded version and the protyped version.
+
+## System Architecture and Details
+- Common Emitter Amplifier
+-  1nf, 1nf, 47uH (Resonant Frequency 1MHz
+![Resume explanation](https://github.com/user-attachments/assets/66734221-39c8-4951-bbdb-06c428d8cef5)
+
 
