@@ -22,7 +22,7 @@ A Colpitts Oscillator is a circuit capable of producing its own signal with an a
 - Harmonics Present
 - Noise Floor(Thermal, Transistor noise)
 
-Nyquist frequency is 500MHz( Max samples for accurate capturing of a signal up to that point) This means the FFT X axis just scales to 0-500MHz, which doesnt effect our data.
+Nyquist frequency is 500MHz( Max frequency for accurate capturing) This means the FFT X axis just scales to 0-500MHz, which doesnt effect our data.
 - Our operating Frequency is the biggest spike at 100MHz or (1Mhz)
 - Harmonics at integer multiples (200MHz, 300MHz, 400Mhz)
 - Second biggest spike 400MHz. May be caused by transistor switching or loading effects from oscilloscope measurement probes, components,
