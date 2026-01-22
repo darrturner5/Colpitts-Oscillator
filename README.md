@@ -43,6 +43,10 @@ Nyquist frequency is 500MHz( Max frequency for accurate capturing) This means th
 - Design an RF amplifier that takes the oscillator as an input
 - Design Oscillator for a higher frequency
 
+## DEMO
+
+https://www.youtube.com/shorts/PmiDxr24zf8
+
 
 
   
