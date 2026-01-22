@@ -25,13 +25,22 @@ A Colpitts Oscillator is a circuit capable of producing its own signal with an a
 Nyquist frequency is 500MHz( Max samples for accurate capturing of a signal up to that point) This means the FFT X axis just scales to 0-500MHz, which doesnt effect our data.
 - Our operating Frequency is the biggest spike at 100MHz or (1Mhz)
 - Harmonics at integer multiples (200MHz, 300MHz, 400Mhz)
-- Second biggest spike 400MHz. May be caused by transistor switching or loading from oscilloscope probes, components,
+- Second biggest spike 400MHz. May be caused by transistor switching or loading effects from oscilloscope measurement probes, components,
 
 
 ![Resume explanation-2](https://github.com/user-attachments/assets/5979b280-c03e-4983-81c6-dbd08b949f12)
 
 ## Results
 - Oscillator have some drift causing frequency to shift. (Suspecting old capacitors in LC Tank)
-- 
+- Parasitics (stray capacitance, long wire leads) artificially raised the LC tank Amplitude on the breadboard. (Common Emitter has to work harder to sustain Oscillation
+- Loading effects minimized with common emitter buffer controlled loading through 1k Ohm resistor.
+
+
+  ![Resume explanation-4](https://github.com/user-attachments/assets/8e0b4dde-1992-41c6-80ff-901e64bffc1e)
+
+
+  *Colpitts Oscillator build on Breadboard
+  
+
 
 
